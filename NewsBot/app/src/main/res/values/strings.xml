@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewsBot</string>
+    <string name="aws_region">us-east-1</string>
+    <string name="bot_name">NewsBot</string>
+    <string name="bot_alias">$LATEST</string>
+
+    <string name="lex_region">YourLexRegion</string>
+    <string name="screen_options_main_message">Amazon Lex</string>
+</resources>
