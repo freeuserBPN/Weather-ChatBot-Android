@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         //replace parameters with your botname, bot-alias
         voiceView.getViewAdapter()
                 .setInteractionConfig(
-                        new InteractionConfig("NewsBot","$LATEST"));
+                        new InteractionConfig("YOUR_BOT_NAME","$LATEST"));
 
         voiceView.getViewAdapter()
                 .setAwsRegion(getApplicationContext()
