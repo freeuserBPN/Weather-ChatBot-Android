@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void requestPermissionIfNeeded() {
-        String[] perms = {READ_CONTACTS, CALL_PHONE, CAMERA, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE,RECORD_AUDIO};
+        String[] perms = {READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE,RECORD_AUDIO};
         if (!hasPermissions(this, perms)) {
             ActivityCompat.requestPermissions(this, perms, PERMISSION_REQUEST_CODE);
         }
